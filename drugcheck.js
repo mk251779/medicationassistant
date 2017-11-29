@@ -35,11 +35,9 @@ var data;
 var name;
 var interaction;
 var severity;
-//var inputLabel = "<input type='text' name='drugname' id='userInput" + searches + "'></br>"
 
 function init() {
 
-    //document.getElementById("addDrug").addEventListener("click", anotherDrug);
     document.getElementById("search").addEventListener("click", nameFunction);
 
 
@@ -65,10 +63,6 @@ function init() {
         drugName10 = document.getElementById("userInput10").value;
         stringURL10 += drugName10;
     }
-
-    /*function anotherDrug() {
-        document.getElementById("drugString").innerHTML += inputLabel;
-    }*/
 
 }
 
